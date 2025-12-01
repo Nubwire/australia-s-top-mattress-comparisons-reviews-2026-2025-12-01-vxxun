@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Australia's Top Mattress Comparisons & Reviews 2026 - Compare top brands side-by-side before you buy. Unbiased reviews, price comparison, and expert ratings to help you save hundreds and sleep better.">
+    <meta name="keywords" content="mattress reviews, mattress comparison, best mattresses Australia, mattress buying guide">
+    <meta name="author" content="Sleep Guide Australia">
+    <meta name="og:title" content="Australia's Top Mattress Comparisons & Reviews 2026">
+    <meta name="og:description" content="Compare top brands side-by-side before you buy. Unbiased reviews, price comparison, and expert ratings.">
+    <meta name="og:type" content="website">
+    <title>Blog - Australia's Top Mattress Comparisons & Reviews 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        body {
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+        }
+
+        .cta-section-bg {
+            background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80');
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+
+        .cta-section-overlay {
+            background-color: rgba(26, 26, 26, 0.7);
+        }
+
+        .feature-card {
+            transition: all 300ms ease-in-out;
+        }
+
+        .feature-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial-card {
+            transition: all 300ms ease-in-out;
+        }
+
+        .testimonial-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: #4A90E2;
+            color: #FFFFFF;
+            transition: all 300ms ease-in-out;
+            border-radius: 4px;
+        }
+
+        .btn-primary:hover {
+            background-color: #3a7bc8;
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(74, 144, 226, 0.3);
+        }
+
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #e5e5e5;
+            transition: all 300ms ease-in-out;
+        }
+
+        .faq-question {
+            cursor: pointer;
+            transition: all 300ms ease-in-out;
+            user-select: none;
+        }
+
+        .faq-question:hover {
+            color: #4A90E2;
+        }
+
+        .faq-icon {
+            transition: transform 300ms ease-in-out;
+        }
+
+        .faq-answer {
+            transition: all 300ms ease-in-out;
+            max-height: 500px;
+            overflow: hidden;
+        }
+
+        .faq-answer.hidden {
+            max-height: 0;
+            overflow: hidden;
+            display: none;
+        }
+
+        .star-rating {
+            color: #fbbf24;
+        }
+
+        .mobile-menu {
+            transition: all 300ms ease-in-out;
+        }
+
+        .mobile-menu.hidden {
+            display: none;
+        }
+
+        header {
+            background-color: #FFFFFF;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-menu a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 300ms ease-in-out;
+        }
+
+        .nav-menu a:hover {
+            color: #4A90E2;
+        }
+
+        .mobile-menu-button {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: #000000;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu-button {
+                display: block;
+            }
+
+            .nav-menu {
+                display: none;
+            }
+
+            .mobile-menu {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+                background-color: #f9f9f9;
+                border-top: 1px solid #e5e5e5;
+            }
+
+            .mobile-menu a {
+                color: #000000;
+                text-decoration: none;
+                font-weight: 500;
+                padding: 0.5rem 0;
+            }
+
+            .mobile-menu a:hover {
+                color: #4A90E2;
+            }
+        }
+
+        .section-title {
+            font-size: 2.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #000000;
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: #666666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 1.875rem;
+            }
+        }
+
+        .blog-card {
+            transition: all 300ms ease-in-out;
+        }
+
+        .blog-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-date {
+            font-size: 0.875rem;
+            color: #4A90E2;
+            font-weight: 600;
+        }
+
+        .blog-title {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .blog-excerpt {
+            color: #666666;
+            line-height: 1.6;
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .read-more-link {
+            color: #4A90E2;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 300ms ease-in-out;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .read-more-link:hover {
+            color: #3a7bc8;
+            transform: translateX(4px);
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav class="flex justify-between items-center py-4">
+                <div class="flex items-center justify-between w-full">
+                    <a href="https://Nubwire.github.io/australia-s-top-mattress-comparisons-reviews-2026-2025-12-01-vxxun" class="logo text-2xl font-bold text-black">Sleep Guide</a>
+                    <a href="https://Nubwire.github.io/australia-s-top-mattress-comparisons-reviews-2026-2025-12-01-vxxun" class="text-black font-medium hover:text-blue-600 transition-colors duration-300">
+                        ← Back
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Hero Section -->
+    <section class="py-16 md:py-24 bg-gray-50 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="section-title text-4xl md:text-5xl mb-6">Our Blog</h1>
+                <p class="section-subtitle text-lg max-w-3xl mx-auto">
+                    Expert insights, comprehensive guides, and the latest trends in mattress selection and sleep health. Discover everything you need to know to make an informed mattress purchase decision.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-2xl font-bold text-gray-700 mb-8">Latest Articles</h2>
+            </div>
+
+            <!-- Featured Post Card -->
+            <div class="blog-card bg-white border border-gray-200 rounded-lg p-8 md:p-12 shadow-md mb-12">
+                <div class="blog-date">Published December 1, 2025</div>
+                <h2 class="blog-title">The Complete Guide to Choosing the Perfect Mattress in Australia 2026</h2>
+                
+                <div class="blog-excerpt">
+                    <p class="mb-4">
+                        Choosing the right mattress is crucial for your health and sleep quality. With countless options available in Australia's market, it's essential to understand what you're looking for before making this significant investment.
+                    </p>
+                    <p class="mb-4">
+                        <strong>Understanding Mattress Types:</strong> The market offers four main mattress types, each with distinct advantages. Memory foam mattresses provide excellent pressure relief and motion isolation, making them ideal for couples, though they may retain heat. Latex mattresses are highly durable, hypoallergenic, and naturally breathable, offering a responsive feel. Innerspring mattresses are more affordable and provide good support, but they often have poor motion isolation. Hybrid mattresses combine the benefits of multiple materials, offering balanced support and comfort.
+                    </p>
+                    <p class="mb-4">
+                        <strong>Key Considerations:</strong> Your sleeping position significantly impacts the ideal firmness level. Side sleepers need medium to medium-soft support for proper shoulder and hip alignment. Back sleepers typically benefit from medium-firm mattresses that maintain spinal alignment. Stomach sleepers require firmer options to prevent excessive sinking. Additionally, consider temperature regulation if you sleep hot, motion isolation if you share your bed, edge support for sitting on the mattress, and durability based on material density and construction quality.
+                    </p>
+                    <p class="mb-4">
+                        <strong>Evaluation Process:</strong> Quality mattresses demonstrate superior material density, construction techniques, and relevant certifications. Compare options using online comparison tools, read verified customer reviews, check prices across multiple retailers, and understand warranty coverage. Most quality mattresses include 10-15 year warranties and trial periods allowing you to test at home before committing.
+                    </p>
+                    <p>
+                        Taking time to research and compare ensures you'll find the perfect mattress for years of comfortable, restorative sleep.
+                    </p>
+                </div>
+
+                <a href="https://Nubwire.github.io/australia-s-top-mattress-comparisons-reviews-2026-2025-12-01-vxxun/blog/the-complete-guide-to-choosing-the-perfect-mattres.html" class="read-more-link">
+                    Read Full Article
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7m0 0l-7 7m7-7H5"></path>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Coming Soon Section -->
+            <div class="mt-16">
+                <h2 class="text-2xl font-bold text-gray-700 mb-8">More Articles Coming Soon</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Placeholder Cards -->
+                    <div class="blog-card bg-white border border-gray-200 rounded-lg p-8 shadow-md opacity-60">
+                        <div class="blog-date">Coming Soon</div>
+                        <h3 class="blog-title text-xl">Best Mattresses for Back Pain Relief</h3>
+                        <p class="blog-excerpt">Discover which mattress types and firmness levels provide the best support for back pain sufferers...</p>
+                        <span class="text-gray-400 font-medium">Stay tuned</span>
+                    </div>
+
+                    <div class="blog-card bg-white border border-gray-200 rounded-lg p-8 shadow-md opacity-60">
+                        <div class="blog-date">Coming Soon</div>
+                        <h3 class="blog-title text-xl">Mattress Maintenance: Extend Your Investment</h3>
+                        <p class="blog-excerpt">Learn essential tips and tricks to keep your mattress clean, fresh, and supportive for years...</p>
+                        <span class="text-gray-400 font-medium">Stay tuned</span>
+                    </div>
+
+                    <div class="blog-card bg-white border border-gray-200 rounded-lg p-8 shadow-md opacity-60">
+                        <div class="blog-date">Coming Soon</div>
+                        <h3 class="blog-title text-xl">Sleeping Positions and Mattress Selection</h3>
+                        <p class="blog-excerpt">A detailed breakdown of how your sleeping position should influence your mattress choice...</p>
+                        <span class="text-gray-400 font-medium">Stay tuned</span>
+                    </div>
+
+                    <div class="blog-card bg-white border border-gray-200 rounded-lg p-8 shadow-md opacity-60">
+                        <div class="blog-date">Coming Soon</div>
+                        <h3 class="blog-title text-xl">Temperature Regulation in Modern Mattresses</h3>
+                        <p class="blog-excerpt">Explore cooling technologies and materials that keep you comfortable throughout the night...</p>
+                        <span class="text-gray-400 font-medium">Stay tuned</span>
+                    </div>
+
+                    <div class="blog-card bg-white border border-gray-200 rounded-lg p-8 shadow-md opacity-60">
+                        <div class="blog-date">Coming Soon</div>
+                        <h3 class="blog-title text-xl">Budget Mattress Buying: Quality on a Budget</h3>
+                        <p class="blog-excerpt">How to find high-quality mattresses without breaking the bank with smart shopping strategies...</p>
+                        <span class="text-gray-400 font-medium">Stay tuned</span>
+                    </div>
+
+                    <div class="blog-card bg-white border border-gray-200 rounded-lg p-8 shadow-md opacity-60">
+                        <div class="blog-date">Coming Soon</div>
+                        <h3 class="blog-title text-xl">The Science of Sleep: Why Your Mattress Matters</h3>
+                        <p class="blog-excerpt">Understanding the connection between mattress quality, sleep quality, and overall health...</p>
+                        <span class="text-gray-400 font-medium">Stay tuned</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Purpose Section -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-lg p-8 md:p-12 border border-gray-200 shadow-md">
+                <h2 class="section-title text-3xl md:text-4xl mb-6">About Our Blog</h2>
+                
+                <div class="space-y-6">
+                    <p class="text-gray-700 text-lg leading-relaxed">
+                        Our blog is dedicated to providing comprehensive, expert-backed information about mattresses, sleep health, and making informed purchasing decisions. We understand that choosing a mattress can be overwhelming, which is why we've created a resource hub filled with detailed guides, expert insights, and practical advice.
+                    </p>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold text-black mb-4">What You'll Find Here:</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3">
+                                <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700"><strong>Comprehensive Buying Guides:</strong> Detailed articles covering mattress types, firmness levels, materials, and how to choose based on your specific needs</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700"><strong>Sleep Health Information:</strong> Articles exploring the connection between mattress quality, sleep quality, and overall health and wellness</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700"><strong>Product Care Tips:</strong> Maintenance guides to help you extend the life of your mattress and keep it in optimal condition</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700"><strong>Latest Trends:</strong> Updates on new mattress technologies, materials, and innovations in the sleep industry</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700"><strong>Expert Insights:</strong> Perspectives from sleep specialists and mattress industry experts on making smart purchasing decisions</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p class="text-gray-700 text-lg leading-relaxed">
+                        Whether you're a first-time mattress buyer or looking to upgrade your current sleep setup, our blog provides the knowledge and tools you need to make confident decisions. All articles are written by sleep experts and regularly updated to reflect the latest information and products available in the Australian market.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section-bg py-20 md:py-32 relative">
+        <div class="cta-section-overlay absolute inset-0"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                    Ready to Compare Mattresses?
+                </h2>
+                <p class="text-xl text-gray-100 mb-10 max-w-2xl mx-auto leading-relaxed font-medium">
+                    Use our comprehensive comparison tool to find your perfect mattress based on expert ratings and real-time prices.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://sleepguide.com.au" class="btn-primary px-8 py-4 font-bold text-lg text-center hover:shadow-lg transform hover:scale-105 transition-all duration-300 rounded">
+                        Compare Mattresses Now
+                    </a>
+                    <a href="https://Nubwire.github.io/australia-s-top-mattress-comparisons-reviews-2026-2025-12-01-vxxun" class="px-8 py-4 font-bold text-lg text-center border-2 border-white text-white rounded hover:bg-white hover:text-black transition-all duration-300">
+                        Back to Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Column -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Sleep Guide</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Australia's trusted mattress comparison platform helping thousands of customers find their perfect sleep.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://Nubwire.github.io/australia-s-top-mattress-comparisons-reviews-2026-2025-12-01-vxxun#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="https://Nubwire.github.io/australia-s-top-mattress-comparisons-reviews-2026-2025-12-01-vxxun#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="https://Nubwire.github.io/australia-s-top-mattress-comparisons-reviews-2026-2025-12-01-vxxun#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="https://Nubwire.github.io/australia-s-top-mattress-comparisons-reviews-2026-2025-12-01-vxxun#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Resources</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Contact</h4>
+                    <p class="text-gray-400 mb-2">
+                        <span class="block mb-2">Email:</span>
+                        <a href="mailto:nextlevelupreviews@gmail.com" class="hover:text-white transition-colors duration-300">nextlevelupreviews@gmail.com</a>
+                    </p>
+                    <p class="text-gray-400 mt-6">
+                        <span class="block mb-2">Business Hours:</span>
+                        <span>Monday - Friday: 9am - 5pm AEST</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                    &copy; 2025 Sleep Guide Australia. All rights reserved.
+                </p>
+                <p class="text-gray-400 text-sm">
+                    Helping Australians sleep better since 2020.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
