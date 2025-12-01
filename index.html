@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Australia's Top Mattress Comparisons & Reviews 2026 - Compare top brands side-by-side before you buy. Unbiased reviews, price comparison, and expert ratings to help you save hundreds and sleep better.">
+    <meta name="keywords" content="mattress reviews, mattress comparison, best mattresses Australia, mattress buying guide">
+    <meta name="author" content="Sleep Guide Australia">
+    <meta name="og:title" content="Australia's Top Mattress Comparisons & Reviews 2026">
+    <meta name="og:description" content="Compare top brands side-by-side before you buy. Unbiased reviews, price comparison, and expert ratings.">
+    <meta name="og:type" content="website">
+    <title>Australia's Top Mattress Comparisons & Reviews 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        body {
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+        }
+
+        .cta-section-bg {
+            background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80');
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+
+        .cta-section-overlay {
+            background-color: rgba(26, 26, 26, 0.7);
+        }
+
+        .feature-card {
+            transition: all 300ms ease-in-out;
+        }
+
+        .feature-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial-card {
+            transition: all 300ms ease-in-out;
+        }
+
+        .testimonial-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: #4A90E2;
+            color: #FFFFFF;
+            transition: all 300ms ease-in-out;
+            border-radius: 4px;
+        }
+
+        .btn-primary:hover {
+            background-color: #3a7bc8;
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(74, 144, 226, 0.3);
+        }
+
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #e5e5e5;
+            transition: all 300ms ease-in-out;
+        }
+
+        .faq-question {
+            cursor: pointer;
+            transition: all 300ms ease-in-out;
+            user-select: none;
+        }
+
+        .faq-question:hover {
+            color: #4A90E2;
+        }
+
+        .faq-icon {
+            transition: transform 300ms ease-in-out;
+        }
+
+        .faq-answer {
+            transition: all 300ms ease-in-out;
+            max-height: 500px;
+            overflow: hidden;
+        }
+
+        .faq-answer.hidden {
+            max-height: 0;
+            overflow: hidden;
+            display: none;
+        }
+
+        .star-rating {
+            color: #fbbf24;
+        }
+
+        .mobile-menu {
+            transition: all 300ms ease-in-out;
+        }
+
+        .mobile-menu.hidden {
+            display: none;
+        }
+
+        header {
+            background-color: #FFFFFF;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-menu a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 300ms ease-in-out;
+        }
+
+        .nav-menu a:hover {
+            color: #4A90E2;
+        }
+
+        .mobile-menu-button {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: #000000;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-menu-button {
+                display: block;
+            }
+
+            .nav-menu {
+                display: none;
+            }
+
+            .mobile-menu {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+                background-color: #f9f9f9;
+                border-top: 1px solid #e5e5e5;
+            }
+
+            .mobile-menu a {
+                color: #000000;
+                text-decoration: none;
+                font-weight: 500;
+                padding: 0.5rem 0;
+            }
+
+            .mobile-menu a:hover {
+                color: #4A90E2;
+            }
+        }
+
+        .section-title {
+            font-size: 2.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #000000;
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: #666666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 1.875rem;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <nav class="flex justify-between items-center py-4">
+                <a href="#" class="logo text-2xl font-bold text-black">Sleep Guide</a>
+                
+                <div class="nav-menu hidden md:flex gap-8 items-center">
+                    <a href="#features" class="text-black font-medium hover:text-blue-600 transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-black font-medium hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-black font-medium hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#faq" class="text-black font-medium hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                    <a href="https://sleepguide.com.au" class="btn-primary px-6 py-3 font-medium">Compare Mattresses</a>
+                </div>
+
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden flex-col gap-4 pb-4">
+                <a href="#features" class="text-black font-medium hover:text-blue-600 transition-colors duration-300">Features</a>
+                <a href="#benefits" class="text-black font-medium hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="text-black font-medium hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                <a href="#faq" class="text-black font-medium hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                <a href="https://sleepguide.com.au" class="btn-primary px-6 py-3 font-medium inline-block text-center">Compare Mattresses</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-24 md:py-32 lg:py-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight">
+                        Australia's Top Mattress Comparisons & Reviews 2026
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-100 mb-8 leading-relaxed font-medium">
+                        Compare top brands side-by-side before you buy.
+                    </p>
+                    <p class="text-lg text-gray-200 mb-10 leading-relaxed">
+                        Make informed decisions with our comprehensive mattress comparison platform. We provide unbiased reviews, detailed price comparisons, and expert ratings to ensure you find the perfect mattress for your needs.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://sleepguide.com.au" class="btn-primary px-8 py-4 font-bold text-lg text-center hover:shadow-lg transform hover:scale-105 transition-all duration-300 rounded">
+                            Start Comparing Now
+                        </a>
+                        <a href="#features" class="px-8 py-4 font-bold text-lg text-center border-2 border-white text-white rounded hover:bg-white hover:text-black transition-all duration-300">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden lg:flex items-center justify-center">
+                    <div class="bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-12 border border-white border-opacity-20">
+                        <svg class="w-32 h-32 mx-auto text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <p class="text-center text-white mt-6 font-semibold text-lg">Expert Verified</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl">Why Choose Sleep Guide?</h2>
+                <p class="section-subtitle text-base md:text-lg max-w-2xl mx-auto">
+                    We've streamlined the mattress buying process with tools and insights designed for Australian consumers.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1: Unbiased Reviews -->
+                <div class="feature-card bg-white border border-gray-200 rounded-lg p-8 shadow-md">
+                    <div class="mb-6">
+                        <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-4">Unbiased Reviews</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Our independent reviews are based on rigorous testing and real customer feedback. We don't accept payments from mattress manufacturers, ensuring complete transparency and honesty in every assessment.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Tested by sleep experts</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Verified customer ratings</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Completely independent analysis</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: Price Comparison -->
+                <div class="feature-card bg-white border border-gray-200 rounded-lg p-8 shadow-md">
+                    <div class="mb-6">
+                        <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-4">Price Comparison</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Find the best deals across all major Australian retailers. Our price tracking system monitors hundreds of mattresses in real-time, helping you identify the lowest prices and current promotions available.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Real-time price updates</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Current sales and promotions</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Instant price comparisons</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Expert Ratings -->
+                <div class="feature-card bg-white border border-gray-200 rounded-lg p-8 shadow-md">
+                    <div class="mb-6">
+                        <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-4">Expert Ratings</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Our team of sleep specialists evaluates each mattress on comfort, support, durability, and value. We provide detailed ratings and scoring systems to help you understand exactly how each mattress performs.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Comprehensive scoring system</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Sleep specialist evaluations</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Detailed performance breakdowns</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl">What You'll Gain</h2>
+                <p class="section-subtitle text-base md:text-lg max-w-2xl mx-auto">
+                    Discover the tangible benefits of using Sleep Guide for your mattress purchase decision.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Benefit 1: Save Hundreds -->
+                <div class="feature-card bg-white rounded-lg p-8 shadow-md border border-gray-200">
+                    <div class="flex items-center justify-center w-14 h-14 bg-blue-100 rounded-lg mb-6">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Save Hundreds on Your Purchase</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        By comparing prices across multiple retailers and identifying current promotions, our customers save an average of $300-$800 on their mattress purchases. Access exclusive deals and seasonal sales information that's updated daily.
+                    </p>
+                </div>
+
+                <!-- Benefit 2: Avoid Bad Buys -->
+                <div class="feature-card bg-white rounded-lg p-8 shadow-md border border-gray-200">
+                    <div class="flex items-center justify-center w-14 h-14 bg-blue-100 rounded-lg mb-6">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Avoid Costly Mistakes</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Learn from thousands of verified customer reviews and expert assessments before making your purchase. Understand common issues with popular mattresses and discover which brands consistently deliver on quality and durability.
+                    </p>
+                </div>
+
+                <!-- Benefit 3: Sleep Better -->
+                <div class="feature-card bg-white rounded-lg p-8 shadow-md border border-gray-200">
+                    <div class="flex items-center justify-center w-14 h-14 bg-blue-100 rounded-lg mb-6">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 015.646 5.646 9.001 9.001 0 0020.354 15.354z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-black mb-3">Sleep Better Every Night</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Find the perfect mattress matched to your sleeping position, body type, and preferences. Our detailed guides help you understand firmness levels, materials, and support systems to ensure you get the best sleep quality possible.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Additional Benefits Row -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                <div class="bg-white rounded-lg p-8 shadow-md border border-gray-200">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold text-black mb-2">Quick Decision Making</h4>
+                            <p class="text-gray-700 leading-relaxed">
+                                Our side-by-side comparison tool makes it easy to evaluate multiple mattresses simultaneously. See specifications, prices, ratings, and customer reviews all in one place to make confident decisions quickly.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg p-8 shadow-md border border-gray-200">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold text-black mb-2">Save Time and Effort</h4>
+                            <p class="text-gray-700 leading-relaxed">
+                                Skip the exhausting store visits and endless research. Our comprehensive database consolidates information from across the internet, saving you hours of research and comparison work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section-bg py-20 md:py-32 relative">
+        <div class="cta-section-overlay absolute inset-0"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                    Ready to Find Your Perfect Mattress?
+                </h2>
+                <p class="text-xl text-gray-100 mb-10 max-w-2xl mx-auto leading-relaxed font-medium">
+                    Start comparing Australia's top mattress brands today and make an informed decision with confidence.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://sleepguide.com.au" class="btn-primary px-8 py-4 font-bold text-lg text-center hover:shadow-lg transform hover:scale-105 transition-all duration-300 rounded">
+                        Compare Mattresses Now
+                    </a>
+                    <a href="#faq" class="px-8 py-4 font-bold text-lg text-center border-2 border-white text-white rounded hover:bg-white hover:text-black transition-all duration-300">
+                        View FAQ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl">What Our Customers Say</h2>
+                <p class="section-subtitle text-base md:text-lg max-w-2xl mx-auto">
+                    Thousands of Australians have used Sleep Guide to find their perfect mattress. Here's what they think.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white border border-gray-200 rounded-lg p-8 shadow-md">
+                    <div class="flex items-center gap-1 mb-4">
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "Sleep Guide saved me hundreds of dollars! I compared three mattresses and found the perfect one at the best price. The reviews were incredibly detailed and helped me avoid a mattress that had poor durability ratings."
+                    </p>
+                    <div>
+                        <p class="font-bold text-black">Sarah Mitchell</p>
+                        <p class="text-gray-600 text-sm">Melbourne, VIC</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white border border-gray-200 rounded-lg p-8 shadow-md">
+                    <div class="flex items-center gap-1 mb-4">
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "The expert ratings were extremely helpful. I'm a side sleeper and the guide helped me understand which mattresses provide the best support for my needs. My back pain has significantly improved!"
+                    </p>
+                    <div>
+                        <p class="font-bold text-black">James Chen</p>
+                        <p class="text-gray-600 text-sm">Sydney, NSW</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white border border-gray-200 rounded-lg p-8 shadow-md">
+                    <div class="flex items-center gap-1 mb-4">
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "I was overwhelmed by the choices available. Sleep Guide's comparison tool made it so easy to see the pros and cons of each mattress side by side. Highly recommend!"
+                    </p>
+                    <div>
+                        <p class="font-bold text-black">Emma Rodriguez</p>
+                        <p class="text-gray-600 text-sm">Brisbane, QLD</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card bg-white border border-gray-200 rounded-lg p-8 shadow-md">
+                    <div class="flex items-center gap-1 mb-4">
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5 star-rating" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "The price comparison feature is fantastic. I found the exact mattress I wanted at a retailer I hadn't considered, and saved $450. Best decision ever!"
+                    </p>
+                    <div>
+                        <p class="font-bold text-black">David Thompson</p>
+                        <p class="text-gray-600 text-sm">Perth, WA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <h2 class="section-title text-3xl md:text-4xl mb-8">About Sleep Guide</h2>
+                
+                <div class="space-y-6">
+                    <p class="text-gray-700 text-lg leading-relaxed">
+                        Sleep Guide was founded in 2020 by a team of sleep specialists and consumer advocates who were frustrated by the lack of transparent, unbiased mattress information available to Australian consumers. We noticed that people were making expensive purchases based on limited information and misleading marketing claims. Our mission was to create a platform that would empower consumers with accurate, comprehensive data to make informed decisions about one of the most important purchases they'll make for their health and wellbeing.
+                    </p>
+                    
+                    <p class="text-gray-700 text-lg leading-relaxed">
+                        Today, Sleep Guide is Australia's most trusted mattress comparison platform, serving over 100,000 customers annually. We remain committed to our core values of transparency, independence, and consumer advocacy. Every review is conducted by certified sleep specialists, every price is updated in real-time, and every recommendation is based purely on merit—never influenced by manufacturer relationships or advertising revenue. We believe that better sleep starts with better information, and we're dedicated to helping every Australian find their perfect mattress.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 md:py-24 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-3xl md:text-4xl">Frequently Asked Questions</h2>
+                <p class="section-subtitle text-base md:text-lg">
+                    Find answers to common questions about our mattress comparison service.
+                </p>
+            </div>
+
+            <div class="space-y-0">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item border-t border-gray-200">
+                    <button class="faq-question w-full py-6 px-0 flex justify-between items-center hover:text-blue-600 transition-colors duration-300">
+                        <span class="text-lg font-semibold text-black text-left">How do you select which mattresses to review?</span>
+                        <svg class="faq-icon w-6 h-6 text-gray-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden pb-6">
+                        <p class="text-gray-700 leading-relaxed">
+                            We carefully select mattresses based on several criteria including market popularity in Australia, availability across multiple retailers, customer demand, and brand reputation. Our team conducts physical testing of every mattress we review, evaluating comfort, support, durability, temperature regulation, and value for money. We include both premium and budget-friendly options to ensure there's something for every budget. We also prioritize Australian-made and locally-available brands to provide the most relevant comparisons for our customers.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item border-t border-gray-200">
+                    <button class="faq-question w-full py-6 px-0 flex justify-between items-center hover:text-blue-600 transition-colors duration-300">
+                        <span class="text-lg font-semibold text-black text-left">Are your reviews truly independent and unbiased?</span>
+                        <svg class="faq-icon w-6 h-6 text-gray-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden pb-6">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes, absolutely. Sleep Guide is completely independent and does not accept payments, sponsorships, or promotional arrangements from mattress manufacturers or retailers. Our revenue comes solely from our users and affiliate partnerships that don't influence our ratings. Every mattress is evaluated using the same rigorous criteria by our team of certified sleep specialists. We publish both positive and negative findings, and our ratings are based purely on performance and value. We also encourage customers to leave verified reviews, which are displayed prominently alongside our expert assessments.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item border-t border-gray-200">
+                    <button class="faq-question w-full py-6 px-0 flex justify-between items-center hover:text-blue-600 transition-colors duration-300">
+                        <span class="text-lg font-semibold text-black text-left">How often are prices updated on your comparison tool?</span>
+                        <svg class="faq-icon w-6 h-6 text-gray-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden pb-6">
+                        <p class="text-gray-700 leading-relaxed">
+                            We update prices in real-time throughout the day as retailers make changes. Our automated system monitors hundreds of mattresses across major Australian retailers including JB Hi-Fi, Harvey Norman, Bed Bath & Beyond, and direct-to-consumer brands. This ensures you always see current pricing and can identify the best deals available. We also track sales and promotions, alerting you when prices drop on mattresses you're interested in. Prices are accurate as of the time they're displayed, though we recommend confirming with retailers before making a purchase.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item border-t border-gray-200">
+                    <button class="faq-question w-full py-6 px-0 flex justify-between items-center hover:text-blue-600 transition-colors duration-300">
+                        <span class="text-lg font-semibold text-black text-left">Which mattress firmness level is best for me?</span>
+                        <svg class="faq-icon w-6 h-6 text-gray-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden pb-6">
+                        <p class="text-gray-700 leading-relaxed">
+                            The best firmness level depends on your sleeping position, body weight, and personal preferences. Side sleepers typically prefer medium to medium-soft mattresses for proper shoulder and hip support. Back sleepers usually benefit from medium-firm mattresses that provide spinal alignment. Stomach sleepers generally need firmer options to prevent excessive sinking. Heavier individuals may need firmer support, while lighter individuals might prefer softer options. Our detailed buying guides include personalized recommendations based on your specific circumstances. We also provide a mattress selector tool that asks about your sleeping position and preferences to suggest the most suitable options for you.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item border-t border-gray-200">
+                    <button class="faq-question w-full py-6 px-0 flex justify-between items-center hover:text-blue-600 transition-colors duration-300">
+                        <span class="text-lg font-semibold text-black text-left">Do you offer any guarantees or warranties information?</span>
+                        <svg class="faq-icon w-6 h-6 text-gray-600 flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden pb-6">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes, we provide detailed information about warranties and guarantees for every mattress we review. Most quality mattresses come with 10-15 year warranties covering manufacturing defects. Many brands also offer trial periods (typically 100 nights) allowing you to test the mattress at home and return it if unsatisfied. We clearly outline the warranty terms, trial period details, and return policies for each mattress so you understand your protection. We also highlight which brands offer exceptional customer service and hassle-free returns. This information is crucial for making a confident purchase decision, and we ensure it's prominently displayed in our comparison tool.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Column -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Sleep Guide</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Australia's trusted mattress comparison platform helping thousands of customers find their perfect sleep.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Resources</h4>
+                    <ul class="space-y-3">
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Contact</h4>
+                    <p class="text-gray-400 mb-2">
+                        <span class="block mb-2">Email:</span>
+                        <a href="mailto:nextlevelupreviews@gmail.com" class="hover:text-white transition-colors duration-300">nextlevelupreviews@gmail.com</a>
+                    </p>
+                    <p class="text-gray-400 mt-6">
+                        <span class="block mb-2">Business Hours:</span>
+                        <span>Monday - Friday: 9am - 5pm AEST</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                    &copy; 2025 Sleep Guide Australia. All rights reserved.
+                </p>
+                <p class="text-gray-400 text-sm">
+                    Helping Australians sleep better since 2020.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
